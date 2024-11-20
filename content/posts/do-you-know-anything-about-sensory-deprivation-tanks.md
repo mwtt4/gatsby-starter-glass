@@ -1,13 +1,12 @@
 ---
-title: Do you know anything about sensory deprivation tanks?
-date: 2021-02-02
+title: Como funcionam os LLMs?
+date: 2024-11-20
 tags:
-  - stranger things
-  - tv series
-  - "2022"
+  - Machine Learning
+  - IA
+  - "2024"
 social_image: /media/rocket.jpg
-description: This is a custom description for SEO and Open Graph purposes. If
-  it's not provided, it defaults to auto-generated excerpts of the page content.
+description: Esse artigo ira explicar o funcionamento do LLM, como o chatgpt por exemplo gera textos, onde ele busca essas informacoes.
 ---
 
 Do you know anything about sensory deprivation tanks? Specifically how to build one? Nobody normal ever accomplished anything meaningful in this world. So, Jonathan, how was the pull-out? No... no El, you're not the monster. You saved me. Do you understand? You saved me.If we’re both going crazy, then we’ll go crazy together, right? Bitchin' Oh... candy, leftovers, Eggo's... she really likes Eggo's. No... no El, you're not the monster. You saved me. Do you understand? You saved me. It’s about the shadow monster, isn’t it?You act like you want me to be your friend and then you treat me like garbage.
