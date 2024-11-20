@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Glass`,
+    title: ``,
     author: {
-      name: `Yinka Adedire`,
-      summary: `Self-taught front-end web dev. JAMStack.`,
+      name: `Guilherme Lourenco`,
+      summary: ``,
     },
     openGraphImage: `open-graph-image.png`,
     description: `A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.`,
@@ -139,7 +139,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: `Gatsby Glass RSS Feed`,
+            title: `Gui Coffee`,
           },
         ],
       },
