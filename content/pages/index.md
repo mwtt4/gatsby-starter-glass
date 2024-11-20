@@ -1,8 +1,8 @@
 ---
 template: "index-template"
-title: "Gatsby Starter Glass"
+title: "Gui Coffee"
 ---
 
-# Hello World
+# Gui Coffe ☕ 
 
 A minimal & beautiful gatsby personal blog starter with nice glassmorphism UI.

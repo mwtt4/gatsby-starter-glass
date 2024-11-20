@@ -7,9 +7,9 @@ module.exports = {
     },
     openGraphImage: `open-graph-image.png`,
     description: `A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.`,
-    siteUrl: `https://gatsbyglass.netlify.app`,
+    siteUrl: `https://gui.coffee`,
     social: {
-      twitter: `yinkakun`,
+      twitter: ``,
     },
     socialLinks: [
       {
