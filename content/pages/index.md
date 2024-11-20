@@ -5,4 +5,4 @@ title: "Gui Coffee"
 
 # Gui Coffe ☕ 
 
-A minimal & beautiful gatsby personal blog starter with nice glassmorphism UI.
+Acompanhe minha jornada moendo os grãos da IA, preparando um espresso de machine learning e degustando os algoritmos mais saborosos.
