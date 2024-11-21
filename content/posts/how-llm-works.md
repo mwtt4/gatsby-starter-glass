@@ -30,6 +30,7 @@ Um LLM ou Large Language Model (Modelo de Linguagem de Grande Escala) é um sist
 
 
 **Tá beleza, mas como os LLMs geram os textos que aparecem pra mim?**
+
 Vamos entender como isso é feito através das etapas de pré treinamento de um LLM.
 
 ## Primeira fase - Pré Treinamento LLM: 
@@ -66,7 +67,7 @@ Os LLMs utilizam modelagem de linguagem autorregressiva, que decompõe a probabi
 **Arquitetura do Modelo:**
 Embora não seja o foco principal, a arquitetura do modelo (geralmente baseada em transformers) é responsável por processar os tokens de entrada e gerar representações contextuais.
 
-## Fases no geral: 
+## Principais pontos da fase de pré treinamento: 
 
 - **Coleta de Dados:** Utilização de web crawlers para varrer todo o conteúdo da internet 
 
