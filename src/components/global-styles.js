@@ -48,6 +48,7 @@ img,
 picture {
   max-width: 100%;
   display: block;
+  aling-items: center;
 }
 
 input,
