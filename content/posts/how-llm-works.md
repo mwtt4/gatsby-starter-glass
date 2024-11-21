@@ -64,6 +64,8 @@ Esta fase é crucial pois estabelece a base de conhecimento que permite ao model
 **Modelagem Autorregressiva:**
 Os LLMs utilizam modelagem de linguagem autorregressiva, que decompõe a probabilidade de uma sequência em probabilidades condicionais para cada token, dado o contexto anterior.
 
+![token](/media/token.png)
+
 **Arquitetura do Modelo:**
 Embora não seja o foco principal, a arquitetura do modelo (geralmente baseada em transformers) é responsável por processar os tokens de entrada e gerar representações contextuais.
 
@@ -72,8 +74,6 @@ Embora não seja o foco principal, a arquitetura do modelo (geralmente baseada e
 - **Coleta de Dados:** Utilização de web crawlers para varrer todo o conteúdo da internet 
 
 - **Quebra do Texto:** O computador divide todo esse texto em pedacinhos menores chamados "tokens". Esses tokens podem ser palavras inteiras, partes de palavras ou até mesmo letras individuais, conforme foi dito na parte de Tokenização
-
-![token](/media/token.png)
 
 - **Aprendizado de Padrões:** O computador começa a notar padrões nesses tokens. Ele aprende que depois da palavra "o" geralmente vem um substantivo, ou que "bom" e "dia" frequentemente aparecem juntos.
 
