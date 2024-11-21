@@ -9,7 +9,7 @@ module.exports = {
     description: ``,
     siteUrl: `https://gui.coffee`,
     social: {
-      twitter: ``,
+      Linkedin: ``,
     },
     socialLinks: [
       {
@@ -17,8 +17,8 @@ module.exports = {
         url: "https://github.com/mwtt4",
       },
       {
-        name: "twitter",
-        url: "https://twitter.com",
+        name: "Linkedin",
+        url: "https://www.linkedin.com/in/guilherme-l-957a0999/",
       },
       {
         name: "instagram",

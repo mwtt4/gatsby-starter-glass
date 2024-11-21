@@ -52,7 +52,7 @@ module.exports = {
     description: `A Minimal & Beautiful Gatsby Personal Blog Starter With Nice Glassmorphism Ui.`,
     siteUrl: `https://gatsbyglass.netlify.app`,
     social: {
-      twitter: `yinkakun`,
+      linkedin: ``,
     },
   },
 
