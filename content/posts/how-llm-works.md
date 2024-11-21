@@ -13,7 +13,7 @@ Após o meu primeiro contato com o ChatGPT, fiquei impressionado com a rapidez c
 
 Com essas questões em mente, decidi me aprofundar no estudo e na pesquisa sobre o funcionamento dos LLMs. Neste artigo, compartilho tudo o que aprendi ao longo dessa jornada.
 
-##### Primeiro, vamos entender o que é um LLM:
+**Primeiro, vamos entender o que é um LLM:**
 
 Um LLM ou Large Language Model (Modelo de Linguagem de Grande Escala) é um sistema avançado de inteligência artificial projetado para compreender e gerar textos de forma similar à linguagem humana. Eles são os responsáveis pelas respostas elaboradas que você recebe ao interagir com eles.
 
@@ -29,11 +29,12 @@ Um LLM ou Large Language Model (Modelo de Linguagem de Grande Escala) é um sist
 ![llm](/media/llm.png)
 
 
-##### Tá beleza, mas como os LLMs geram os textos que aparecem pra mim?
+
+**Tá beleza, mas como os LLMs geram os textos que aparecem pra mim?**
 
 Vamos entender como isso é feito através das etapas de pré treinamento de um LLM.
 
-##### Primeira fase - Pré Treinamento LLM: 
+## Primeira fase - Pré Treinamento LLM: 
 
 O pré-treinamento é o alicerce de todo LLM. Nesta fase inicial, o modelo é exposto a uma quantidade massiva de textos da internet, onde aprende:
 - Padrões linguísticos
@@ -50,15 +51,14 @@ O pré-treinamento é o alicerce de todo LLM. Nesta fase inicial, o modelo é ex
 
 Esta fase é crucial pois estabelece a base de conhecimento que permite ao modelo compreender e gerar texto de forma coerente. É como ensinar um bebê a falar: primeiro ele precisa ser exposto a muita linguagem antes de começar a se comunicar.
 
-##### **Fase de Tokenização:**
+## **Fase de Tokenização:**
 - Tokeniza o texto de entrada do LLM na fase de pré processamento. 
 - São mais gerais que palavras, lida com erro de digitação 
 - Tokeniza caractere por caractere (A media de cada token tem de 3 a 4 letras)
 - Permitem um equilíbrio entre a generalidade de caracteres e a eficiência de palavras.
-- Cada token tem seu ID único e exclusivo, o modelo aprende com base nas palavras que 
-estão ao redor. 
+- Cada token tem seu ID único e exclusivo, o modelo aprende com base nas palavras que estão ao redor. 
 
-Informações adicionais:
+:**Informações adicionais::**
 - Existem vários algoritmos para codificação de tokens
 - Treinar tokenizadores leva muito tempo
 
@@ -68,7 +68,7 @@ Os LLMs utilizam modelagem de linguagem autorregressiva, que decompõe a probabi
 **Arquitetura do Modelo:**
 Embora não seja o foco principal, a arquitetura do modelo (geralmente baseada em transformers) é responsável por processar os tokens de entrada e gerar representações contextuais.
 
-##### Fases no geral: 
+## Fases no geral: 
 
 :**Coleta de Dados::**
 - Utilização de web crawlers para varrer todo o conteúdo da internet 
