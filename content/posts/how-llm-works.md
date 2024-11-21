@@ -5,7 +5,7 @@ tags:
   - Machine Learning
   - IA
   - "2024"
-social_image: /media/rocket.jpg
+social_image: /media/llm.png
 description: Esse artigo mergulha no fascinante mundo dos LLMs (Large Language Models), revelando como modelos como o ChatGPT funcionam nos bastidores. Descubra a arquitetura por trás dessas IAs, entenda como elas geram textos tão coerentes e explore o processo que permite que elas acessem e processem informações de forma tão eficiente
 ---
 
