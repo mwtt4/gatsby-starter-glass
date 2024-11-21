@@ -6,7 +6,7 @@ tags:
   - IA
   - "2024"
 social_image: /media/rocket.jpg
-description: Esse artigo ira explicar o funcionamento do LLM, como o chatgpt por exemplo gera textos, onde ele busca essas informacoes.
+description: Esse artigo ira explicar o básico do funcionamento do LLM e responder algumas perguntas que você provavelmente já fez.  Como o Chatgpt por exemplo gera textos, onde ele busca essas informacões, qual a sua arquitetura? E entre outras questões. 
 ---
 
 Do you know anything about sensory deprivation tanks? Specifically how to build one? Nobody normal ever accomplished anything meaningful in this world. So, Jonathan, how was the pull-out? No... no El, you're not the monster. You saved me. Do you understand? You saved me.If we’re both going crazy, then we’ll go crazy together, right? Bitchin' Oh... candy, leftovers, Eggo's... she really likes Eggo's. No... no El, you're not the monster. You saved me. Do you understand? You saved me. It’s about the shadow monster, isn’t it?You act like you want me to be your friend and then you treat me like garbage.
