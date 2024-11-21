@@ -6,7 +6,7 @@ module.exports = {
       summary: ``,
     },
     openGraphImage: `open-graph-image.png`,
-    description: `A minimal & beautiful gatsby personal blog starter with a nice glassmorphism UI.`,
+    description: ``,
     siteUrl: `https://gui.coffee`,
     social: {
       twitter: ``,
@@ -14,7 +14,7 @@ module.exports = {
     socialLinks: [
       {
         name: "github",
-        url: "https://github.com",
+        url: "https://github.com/mwtt4",
       },
       {
         name: "twitter",
