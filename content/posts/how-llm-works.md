@@ -58,7 +58,7 @@ Esta fase é crucial pois estabelece a base de conhecimento que permite ao model
 - Permitem um equilíbrio entre a generalidade de caracteres e a eficiência de palavras.
 - Cada token tem seu ID único e exclusivo, o modelo aprende com base nas palavras que estão ao redor. 
 
-:**Informações adicionais::**
+**Informações adicionais:**
 - Existem vários algoritmos para codificação de tokens
 - Treinar tokenizadores leva muito tempo
 
@@ -70,26 +70,19 @@ Embora não seja o foco principal, a arquitetura do modelo (geralmente baseada e
 
 ## Fases no geral: 
 
-:**Coleta de Dados::**
-- Utilização de web crawlers para varrer todo o conteúdo da internet 
+- **Coleta de Dados:** Utilização de web crawlers para varrer todo o conteúdo da internet 
 
-:**Quebra do Texto::**
-- O computador divide todo esse texto em pedacinhos menores chamados "tokens". Esses tokens podem ser palavras inteiras, partes de palavras ou até mesmo letras individuais, conforme foi dito na parte de Tokenização
+- **Quebra do Texto:** O computador divide todo esse texto em pedacinhos menores chamados "tokens". Esses tokens podem ser palavras inteiras, partes de palavras ou até mesmo letras individuais, conforme foi dito na parte de Tokenização
 
-:**Aprendizado de Padrões::**
-- O computador começa a notar padrões nesses tokens. Ele aprende que depois da palavra "o" geralmente vem um substantivo, ou que "bom" e "dia" frequentemente aparecem juntos.
+- **Aprendizado de Padrões:** O computador começa a notar padrões nesses tokens. Ele aprende que depois da palavra "o" geralmente vem um substantivo, ou que "bom" e "dia" frequentemente aparecem juntos.
 
-:**Probabilidade::**
-- O computador pratica tentando realizar a probabiliade da próxima palavra aparecer em uma frase. 
+- **Probabilidade:** O computador pratica tentando realizar a probabiliade da próxima palavra aparecer em uma frase. 
 
-:**Aprendendo com Erros::**
-- Quando o computador erra, ele ajusta seu entendimento. Se ele adivinhou uma palavra errada e colocou na frase, ele vê que não faz muito sentido e tenta melhorar na próxima vez.
+- **Aprendendo com Erros:** Quando o computador erra, ele ajusta seu entendimento. Se ele adivinhou uma palavra errada e colocou na frase, ele vê que não faz muito sentido e tenta melhorar na próxima vez.
 
-:**Repetição em Grande Escala::**
-- Este processo é repetido bilhões de vezes com diferentes textos. Quanto mais o computador pratica, melhor ele fica em entender e prever a linguagem.
+- **Repetição em Grande Escala:**: Este processo é repetido bilhões de vezes com diferentes textos. Quanto mais o computador pratica, melhor ele fica em entender e prever a linguagem.
 
-:**Desenvolvimento de Compreensão::**
-- Com o tempo, o computador não só aprende a prever palavras, mas também começa a entender conceitos, contextos e até mesmo algumas nuances da linguagem.
+- **Desenvolvimento de Compreensão:**: Com o tempo, o computador não só aprende a prever palavras, mas também começa a entender conceitos, contextos e até mesmo algumas nuances da linguagem.
 
 O pré-treinamento é computacionalmente intensivo, requerendo hardware especializado e otimizações de sistema.
 
