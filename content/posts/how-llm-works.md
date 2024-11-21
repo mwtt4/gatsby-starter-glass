@@ -9,7 +9,22 @@ social_image: /media/rocket.jpg
 description: Esse artigo mergulha no fascinante mundo dos LLMs (Large Language Models), revelando como modelos como o ChatGPT funcionam nos bastidores. Descubra a arquitetura por trás dessas IAs, entenda como elas geram textos tão coerentes e explore o processo que permite que elas acessem e processem informações de forma tão eficiente
 ---
 
-Do you know anything about sensory deprivation tanks? Specifically how to build one? Nobody normal ever accomplished anything meaningful in this world. So, Jonathan, how was the pull-out? No... no El, you're not the monster. You saved me. Do you understand? You saved me.If we’re both going crazy, then we’ll go crazy together, right? Bitchin' Oh... candy, leftovers, Eggo's... she really likes Eggo's. No... no El, you're not the monster. You saved me. Do you understand? You saved me. It’s about the shadow monster, isn’t it?You act like you want me to be your friend and then you treat me like garbage.
+Após o meu primeiro contato com o ChatGPT, fiquei impressionado com a rapidez com que esse modelo de linguagem (LLM) responde às perguntas. Isso despertou em mim algumas dúvidas: Como ele funciona nos bastidores? Qual é sua arquitetura? Como o ChatGPT consegue fornecer respostas para as minhas perguntas? Como ele gera esses textos? E a partir de que base?
+
+Com essas questões em mente, decidi me aprofundar no estudo e na pesquisa sobre o funcionamento dos LLMs. Neste artigo, compartilho tudo o que aprendi ao longo dessa jornada.
+
+Primeiro, vamos entender o que é um LLM:
+
+Um LLM ou Large Language Model (Modelo de Linguagem de Grande Escala) é um sistema avançado de inteligência artificial projetado para compreender e gerar textos de forma similar à linguagem humana. Eles são os responsáveis pelas respostas elaboradas que você recebe ao interagir com eles.
+
+Exemplos de LLMs
+- GPT-3 e GPT-4 da OpenAI
+- BERT do Google
+- LLaMA da Meta
+
+Características de um LLM: 
+- São capazes de realizar diversas tarefas relacionadas ao processamento de linguagem natural (NLP), como geração de texto, tradução automática, respostas a perguntas, entre outras.
+- Baseiam-se na arquitetura Transformer (um tipo de modelo neural) ou em variações dessa arquitetura.
 
 So, Jonathan, how was the pull-out? Hey kiddo, would you like a balloon? We never would've upset you if we knew you had superpowers. Do you know anything about sensory deprivation tanks? Specifically how to build one?Why do we even need weapons anyway? We have her. She shut one door! With her mind! I need my paddles! Mistakes have been made. We never would've upset you if we knew you had superpowers. Nobody normal ever accomplished anything meaningful in this world.Why’s he gotta kick the door? Do you know anything about sensory deprivation tanks? Specifically how to build one? I need my paddles! It’s finger-lickin’ good. You’re pretty cute, you know that? It’s finger-lickin’ good. Don’t take it so personally, okay? I don’t like most people. He’s in the vast majority.
 
