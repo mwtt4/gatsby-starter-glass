@@ -27,7 +27,7 @@ Um LLM ou Large Language Model (Modelo de Linguagem de Grande Escala) é um sist
 - Baseiam-se na arquitetura Transformer (um tipo de modelo neural) ou em variações dessa arquitetura.
 
 ![llm](/media/llm.png)
-<a class="af on" href="https://www.civilsdaily.com/news/crafting-safe-generative-ai-systems/" rel="noopener ugc nofollow" target="_blank">fonte</a>
+<a class="af on" href="https://www.civilsdaily.com/news/crafting-safe-generative-ai-systems/" rel="noopener ugc nofollow" target="_blank">fonte da imagem</a>
 
 **Tá beleza, mas como os LLMs geram os textos que aparecem pra mim?**
 
@@ -109,6 +109,3 @@ Métodos de Fine-tuning:
 - **Instruction Tuning:** Treinamento específico com conjuntos de instruções para melhorar a capacidade de seguir comandos
 
 Esse foi um resumo de tudo que aprendi até agora sobre LLMs, pretendo aprofundar em cada um dos tópicos e fazer posts separados sobre cada tema, aqui eu apenas mostrei o básico de como um LLM funciona por debaixo dos panos. 
-
-
-*Fonte:[]*
