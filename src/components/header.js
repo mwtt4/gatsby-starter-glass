@@ -7,6 +7,11 @@ import { useStaticQuery, graphql } from "gatsby";
 
 const HEADER_NAV_ITEM = [
   {
+    label: "Home",
+    url: "/home",
+    isExternal: false,
+  },
+  {
     label: "Blog",
     url: "/blog",
     isExternal: false,

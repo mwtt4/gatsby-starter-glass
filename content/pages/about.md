@@ -4,9 +4,8 @@ template: about-template
 profile_image: /media/profile-image.jpg
 ---
 
-# Hi, I'm John Doe
+# Hi, I'm Gui
 
-This website is a live example of a Gatsby Starter — it's not a real blog.
-People using this starter may want to add some information to this page about them or their business.
+Atualmente trabalho com Resposta a Incidentes de Seguranca da Informacao, tenho 10 anos de experiencia na area de tecnologia e estou aprendendo sobre Machine Learning com o foco em Cyber Security 
 
 
