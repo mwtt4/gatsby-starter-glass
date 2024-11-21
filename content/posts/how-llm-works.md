@@ -30,11 +30,9 @@ Um LLM ou Large Language Model (Modelo de Linguagem de Grande Escala) é um sist
 
 
 **Tá beleza, mas como os LLMs geram os textos que aparecem pra mim?**
-
 Vamos entender como isso é feito através das etapas de pré treinamento de um LLM.
 
 ## Primeira fase - Pré Treinamento LLM: 
-
 O pré-treinamento é o alicerce de todo LLM. Nesta fase inicial, o modelo é exposto a uma quantidade massiva de textos da internet, onde aprende:
 - Padrões linguísticos
 - Conhecimento geral
@@ -51,13 +49,12 @@ O pré-treinamento é o alicerce de todo LLM. Nesta fase inicial, o modelo é ex
 Esta fase é crucial pois estabelece a base de conhecimento que permite ao modelo compreender e gerar texto de forma coerente. É como ensinar um bebê a falar: primeiro ele precisa ser exposto a muita linguagem antes de começar a se comunicar.
 
 ## **Fase de Tokenização:**
+![token-2](/media/token-2.png)
 - Tokeniza o texto de entrada do LLM na fase de pré processamento. 
 - São mais gerais que palavras, lida com erro de digitação 
 - Tokeniza caractere por caractere (A media de cada token tem de 3 a 4 letras)
 - Permitem um equilíbrio entre a generalidade de caracteres e a eficiência de palavras.
 - Cada token tem seu ID único e exclusivo, o modelo aprende com base nas palavras que estão ao redor. 
-
-![token](/media/token.png)
 
 **Informações adicionais:**
 - Existem vários algoritmos para codificação de tokens
@@ -65,6 +62,7 @@ Esta fase é crucial pois estabelece a base de conhecimento que permite ao model
 
 **Modelagem Autorregressiva:**
 Os LLMs utilizam modelagem de linguagem autorregressiva, que decompõe a probabilidade de uma sequência em probabilidades condicionais para cada token, dado o contexto anterior.
+
 **Arquitetura do Modelo:**
 Embora não seja o foco principal, a arquitetura do modelo (geralmente baseada em transformers) é responsável por processar os tokens de entrada e gerar representações contextuais.
 
@@ -73,6 +71,8 @@ Embora não seja o foco principal, a arquitetura do modelo (geralmente baseada e
 - **Coleta de Dados:** Utilização de web crawlers para varrer todo o conteúdo da internet 
 
 - **Quebra do Texto:** O computador divide todo esse texto em pedacinhos menores chamados "tokens". Esses tokens podem ser palavras inteiras, partes de palavras ou até mesmo letras individuais, conforme foi dito na parte de Tokenização
+
+![token](/media/token.png)
 
 - **Aprendizado de Padrões:** O computador começa a notar padrões nesses tokens. Ele aprende que depois da palavra "o" geralmente vem um substantivo, ou que "bom" e "dia" frequentemente aparecem juntos.
 
