@@ -29,7 +29,6 @@ Um LLM ou Large Language Model (Modelo de Linguagem de Grande Escala) é um sist
 ![llm](/media/llm.png)
 
 
-
 **Tá beleza, mas como os LLMs geram os textos que aparecem pra mim?**
 
 Vamos entender como isso é feito através das etapas de pré treinamento de um LLM.
@@ -58,13 +57,14 @@ Esta fase é crucial pois estabelece a base de conhecimento que permite ao model
 - Permitem um equilíbrio entre a generalidade de caracteres e a eficiência de palavras.
 - Cada token tem seu ID único e exclusivo, o modelo aprende com base nas palavras que estão ao redor. 
 
+![token](/media/token.png)
+
 **Informações adicionais:**
 - Existem vários algoritmos para codificação de tokens
 - Treinar tokenizadores leva muito tempo
 
 **Modelagem Autorregressiva:**
 Os LLMs utilizam modelagem de linguagem autorregressiva, que decompõe a probabilidade de uma sequência em probabilidades condicionais para cada token, dado o contexto anterior.
-
 **Arquitetura do Modelo:**
 Embora não seja o foco principal, a arquitetura do modelo (geralmente baseada em transformers) é responsável por processar os tokens de entrada e gerar representações contextuais.
 
@@ -85,21 +85,26 @@ Embora não seja o foco principal, a arquitetura do modelo (geralmente baseada e
 - **Desenvolvimento de Compreensão:**: Com o tempo, o computador não só aprende a prever palavras, mas também começa a entender conceitos, contextos e até mesmo algumas nuances da linguagem.
 
 O pré-treinamento é computacionalmente intensivo, requerendo hardware especializado e otimizações de sistema.
-
 Este processo de pré-treinamento cria um modelo base que pode ser posteriormente refinado para tarefas específicas através de técnicas como fine-tuning ou prompting.
 
 
-## Code Block
+## Segunda fase - Pós Treinamento LLM:
 
-```javascript
-// finds a given word in a string and replace with another one
-const findAndReplace = (string, wordToFind, wordToReplace) => {
-  return string.split(wordToFind).join(wordToReplace);
-};
+A segunda fase e ultima é o pós treinamento também conhecida como fine-tuning ou ajuste fino, nessa etapa você treina o modelo para dar melhores respostas baseado no que você quer que seja o objetivo dele, é aqui que o modelo vira o seu assistente IA.  
 
-let result = findAndReplace('I like banana', 'banana', 'apple'); // I like apple
-```
+**Benefícios do Pós-treinamento:**
 
-## Quoted Text
+- **Personalização:** Adapta o modelo para domínios ou tarefas específicas.
+- **Aumento da precisão:** Reduz a chance de "alucinações" do modelo.
+- **Maior confiabilidade:** Melhora a qualidade e relevância das respostas.
+- **Tempo de resposta reduzido:** Pode resultar em respostas mais rápidas para tarefas específicas.
 
-> Maecenas faucibus mollis interdum. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae elit libero, a pharetra augue.
+
+**Exemplos de treinamentos de Fine-tuning:**
+
+Métodos de Fine-tuning:
+- **RLHF (Reinforcement Learning from Human Feedback):** Treinamento com feedback humano para alinhar o modelo com preferências e valores humanos
+- **LoRA (Low-Rank Adaptation):** Técnica eficiente que ajusta apenas alguns parâmetros específicos do modelo
+- **Instruction Tuning:** Treinamento específico com conjuntos de instruções para melhorar a capacidade de seguir comandos
+
+Esse foi um resumo de tudo que aprendi até agora sobre LLMs, pretendo aprofundar em cada um dos tópicos e fazer posts separados sobre cada tema, aqui eu apenas mostrei o básico de como um LLM funciona por debaixo dos panos. 
